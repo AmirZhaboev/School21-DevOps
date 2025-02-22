@@ -9,3 +9,6 @@ Welcome to the repository showcasing DevOps projects I completed as part of the 
 
 2. [**Project 2: Linux Networking Basics**](./Linux_Networking_Basics/src/TASK.md)  
    Explored the basics of networking in Linux: configuring interfaces, troubleshooting, and using essential tools.
+
+3. [**Project 3: Linux Monitoring v1.0 [Bash]**](./Linux_Monitoring_v1/src/)  
+   Developed Bash scripts for system and file system redearch.
