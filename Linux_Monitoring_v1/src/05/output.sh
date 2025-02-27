@@ -14,4 +14,7 @@ Archive files = $archive_file_coint
 Symbolic links = $links_file_count
 TOP 10 files of maximum size arranged in descending order (path, size and type):
 $top_10_files
+TOP 10 executable files of the maximum size arranged in descending order (path, size and MD5 hash of file):  
+$top_10_exec_files
+Script execution time (in seconds) = $execution_time
 EOF

@@ -5,13 +5,12 @@ if [ -z "$1" ]; then
   exit 1
 fi
 
-directory="$1"
-if [[ ! "$directory" =~ /$ ]]; then
+if [[ ! "$1" =~ /$ ]]; then
   echo "Path must end with '/'"
   exit 1
 fi
 
-if [ ! -d "$directory" ]; then
-  echo "The path $directory does not exist or is not a directory"
+if [ ! -d "$1" ]; then
+  echo "The path $1 does not exist or is not a directory"
   exit 1
 fi
